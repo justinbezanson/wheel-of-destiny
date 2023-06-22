@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wheel of Destiny</title>
+        <link rel="stylesheet" href="assets/all.min.css">
+        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="holder d-flex align-items-center justify-content-center">
+    
+            <div class="container">
+                <!-- FOR DEMO PURPOSE -->
+                <header class="text-center mb-5">
+                    <h1 class="display-4">
+                        <div>
+                            Wheel of Destiny
+                        </div>
+                    </h1>
+                </header>
+
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">        
+                        <!-- CHECKBOX LIST -->
+                        <div class="card rounded border-0 shadow-sm position-relative">
+                            <div class="card-body p-5">
+                                <div class="d-flex align-items-center mb-4 pb-4 border-bottom"><i class="far fa-calendar-alt fa-3x"></i>
+                                    <div class="ms-3">
+                                        <h4 class="text-uppercase fw-weight-bold mb-0" id="day_of_week"></h4>
+                                        <p class="text-gray fst-italic mb-0" id="full_date"></p>
+                                    </div>
+                                    <div style="width: 100%; text-align: right"><button id="spin">SPIN</button></div>
+                                </div>
+                                <div id="list"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mx-auto">        
+                        <!-- CHECKBOX LIST -->
+                        <div class="card rounded border-0 shadow-sm position-relative">
+                           <div class="card-body p-5">
+                                <div class="d-flex align-items-center mb-4 pb-4 border-bottom">
+                                    <div class="ms-3">
+                                       <h4 class="text-uppercase fw-weight-bold mb-0">Already Gone</h4>
+                                    </div>
+                                </div>
+                                <div id="done"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="application/javascript" src="assets/bootstrap.bundle.min.js"></script>
+        <script type="application/javascript" src="assets/app.js"></script>
+    </body>
+</html>
