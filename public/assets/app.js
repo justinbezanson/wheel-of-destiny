@@ -5,9 +5,7 @@ let LEN;
 let list = document.querySelector("#list");
 let done = document.querySelector("#done");
 let names = [
-    "Alex",
     "Chris",
-    "Criss",
     "Dhruvi",
     "Dylan",
     "Eric",
@@ -16,7 +14,6 @@ let names = [
     "Justin",
     "Mayar",
     "Mike",
-    "Summer",
     "Tyler"
 ];
 let doneNames = [];

@@ -5,9 +5,7 @@ let list = document.querySelector("#list");
 let done = document.querySelector("#done");
 
 let names: string[] = [
-    "Alex",
     "Chris",
-    "Criss",
     "Dhruvi",
     "Dylan",
     "Eric",
@@ -16,7 +14,6 @@ let names: string[] = [
     "Justin",
     "Mayar",
     "Mike",
-    "Summer",
     "Tyler"
 ];
 
